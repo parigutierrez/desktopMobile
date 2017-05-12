@@ -29,4 +29,9 @@
     .menuBotones{
       display: none;
     }
+    #formulario{
+      background-color: #0489B1;
+      color: #F6CEE3;
+    }
+    
 }
