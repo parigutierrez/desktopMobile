@@ -1,0 +1,32 @@
+@media (max-width:480px){
+  nav button{
+        display:none;
+    }
+    #parrafos{
+      display: none;
+    }
+    #portada{
+      height: 250px;
+    }
+    iframe{
+      height: 250px;
+    }
+    footer p{
+      font-size: 65%;
+    }
+    form button{
+      font-size: 60%;
+    }
+    #video{
+      background-color: pink;
+    }
+    #ham{
+      display: inline-flex;
+      color:#FA58AC;
+      font-size: 28px;
+      padding-right: 10px;
+    }
+    .menuBotones{
+      display: none;
+    }
+}

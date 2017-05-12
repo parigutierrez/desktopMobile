@@ -4,18 +4,25 @@
     <meta charset="utf-8">
     <title>Desktop Mobile</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/c5c6707201.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lemonada:400,700" rel="stylesheet">
   </head>
   <body>
     <header class="container">
         <nav>
-            <button type="button" name="button">Naturaleza</button>
-            <button type="button" name="button">Momentos</button>
-            <button type="button" name="button">Paisajes</button>
-            <button type="button" name="button">Arquitectura</button>
-            <button type="button" name="button">Producto</button>
+            <div id="menuBotones" class="container">
+              <button type="button" name="button">Naturaleza</button>
+              <button type="button" name="button">Momentos</button>
+              <button type="button" name="button">Paisajes</button>
+              <button type="button" name="button">Arquitectura</button>
+              <button type="button" name="button">Producto</button>
+            </div>
         </nav>
+        <i id="ham" class="fa fa-bars" aria-hidden="true"></i>
     </header>
+
 
     <section id="portada" class="container">
       <h1>Mis mejores fotos</h1>
@@ -34,7 +41,7 @@
 
     <section class="container">
       <h2></h2>
-      <div class="container">
+      <div id="video" class="container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/1qvDPi9ZyJA" frameborder="0" allowfullscreen></iframe>
       </div>
     </section>
@@ -45,7 +52,7 @@
         <input class="dato" type="text" name="" value="" placeholder="Nombre">
         <input class="dato" type="text" name="" value="" placeholder="E mail">
         <textarea class="dato" name="name" rows="8" cols="80" placeholder="Comentario"></textarea>
-        <button type="button" name="button">Enviar datos</button>
+        <button type="button" name="button">Enviar</button>
       </form>
     </section>
 
